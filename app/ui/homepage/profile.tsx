@@ -37,20 +37,19 @@ const theme = createTheme({
 export default function Profile() {
     return (
         <div className="p-6 sm:gap-8 sm:flex sm:justify-around sm:items-center">
-            {/* <Link href='#'> */}
-                <Image
-                    className="
-                        h-auto
-                        w-[300px]
-                        md:w-[360px]
-                        rounded-tr-[30px]
-                        rounded-bl-[30px]
-                        shadow-solid                    
-                    " 
-                    src={profilePic} 
-                    alt="Lucas Gomes Araujo's profile picture"
-                />
-            {/* </Link> */}
+            <Image
+                className="
+                    mx-auto
+                    h-auto
+                    w-[300px]
+                    md:w-[360px]
+                    rounded-tr-[30px]
+                    rounded-bl-[30px]
+                    sm:shadow-solid
+                "
+                src={profilePic} 
+                alt="Lucas Gomes Araujo's profile picture"
+            />
             <div className="mt-6 sm:mt-0">
                 <h2 className={`${heading.className} text-xl sm:text-2xl md:text-4xl`}>Welcome to my Portfolio!</h2>
                 <p className="md:text-lg pt-2">My name is Lucas Gomes Araujo and I am a dedicated software developer currently pursuing a Bachelor of Science in Software Development at Brigham Young University Idaho. </p>
