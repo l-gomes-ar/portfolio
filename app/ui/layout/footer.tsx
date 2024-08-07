@@ -8,7 +8,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 export default function Footer() {
     return (
         <>
-            <div className={`${paragraph.className} text-center sm:flex sm:justify-center sm:items-baseline sm:gap-10 lg:gap-[9rem] mt-10 p-6 border-t-2 border-black text-lg`}>
+            <div className='text-center sm:flex sm:justify-center sm:items-baseline sm:gap-10 lg:gap-[9rem] mt-10 p-6 border-t-2 border-black text-lg'>
                 <p className={`${signature.className} text-2xl`}>Lucas Gomes Araujo</p>
                 <div className="mt-4 sm:mt-0 sm:text-start">
                     <p className="font-bold text-xl">About Me</p>

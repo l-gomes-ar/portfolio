@@ -7,5 +7,12 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   plugins: [],
+  theme: {
+    extend: {
+      boxShadow: {
+        'solid': '10px 10px 5px 0 rgb(0 0 0)'
+      }
+    }
+  }
 };
 export default config;
