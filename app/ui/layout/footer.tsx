@@ -1,3 +1,5 @@
+'use client';
+
 import { signature, paragraph } from "../fonts";
 import Link from "next/link";
 import IconButton from '@mui/material/IconButton';
@@ -26,24 +28,18 @@ export default function Footer() {
                     </ul>
                 </div>
                 <div className="mt-4 sm:mt-0">
-                    <Link href={'mailto:lgaraujo022@gmail.com'}>
-                        <IconButton aria-label="email">
-                            <EmailIcon className="text-black" fontSize="large" />
-                        </IconButton>
-                    </Link>
-                    <Link href={'https://www.linkedin.com/in/lucas-gomes-araujo/'}>
-                        <IconButton aria-label="linkedin">
-                            <LinkedInIcon className="text-black" fontSize="large" />
-                        </IconButton>
-                    </Link>
-                    <Link href={'https://github.com/l-gomes-ar'}>
-                        <IconButton aria-label="github">
-                            <GitHubIcon className="text-black" fontSize="large" />
-                        </IconButton>
-                    </Link>
+                    <IconButton aria-label="email" onClick={() => open('mailto:lgaraujo022@gmail.com', '_self')}>
+                        <EmailIcon className="text-black" fontSize="large" />
+                    </IconButton>
+                    <IconButton aria-label="linkedin" onClick={() => open('https://www.linkedin.com/in/lucas-gomes-araujo/', '_self')}>
+                        <LinkedInIcon className="text-black" fontSize="large" />
+                    </IconButton>
+                    <IconButton aria-label="github" onClick={() => open('https://github.com/l-gomes-ar', '_self') }>
+                        <GitHubIcon className="text-black" fontSize="large" />
+                    </IconButton>
                 </div>
             </div>
-            <p className="text-center pb-6">
+            <p className="text-center pb-6 md:text-lg">
                 {`@${new Date().getFullYear()}`} | Lucas G. Araujo
             </p>
         </>
