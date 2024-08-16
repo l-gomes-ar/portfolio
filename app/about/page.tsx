@@ -9,7 +9,7 @@ import cs50Certificate from '@/public/about/CS50x.png';
 export default function Page() {
     return (
         <div>
-            <div className="p-8">
+            <div className="py-8 sm:px-8">
                 <h2 className={`${heading.className} text-xl sm:text-2xl md:text-4xl text-center`}>About Me</h2>
                 <div className="sm:flex p-6 sm:justify-between sm:gap-8 sm:items-center">
                     <Image
@@ -36,7 +36,7 @@ export default function Page() {
                 </div>
             </div>
             <div className="mt-2 border-2 border-b-black"></div>
-            <div className="p-8">
+            <div className="py-8 sm:px-8">
                 <h2 className={`${heading.className} pt-6 text-xl sm:text-2xl md:text-4xl text-center`}>Education</h2>
                 <div className="flex flex-col sm:flex-row p-6 sm:justify-between sm:gap-8 sm:items-center">
                     <div>

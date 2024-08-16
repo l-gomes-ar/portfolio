@@ -21,7 +21,7 @@ const theme = createTheme({
 export default function Profile() {
     return (
         <ThemeProvider theme={theme}>
-            <div className="p-6 sm:gap-8 sm:flex sm:justify-around sm:items-center">
+            <div className="py-2 px-2 sm:px-[5.5rem] sm:py-[5rem] sm:gap-8 sm:flex sm:justify-around sm:items-center">
                 <Image
                     className="
                         mx-auto
@@ -41,7 +41,7 @@ export default function Profile() {
                     <p className="md:text-lg pt-2">I am excited to apply my knowledge to create exceptional software solutions and contribute my skills to a collaborative environment where I can grow as a developer.</p>
                     <p className="md:text-lg pt-2">Feel free to dive into my portfolio!</p>
                     <div className="pt-4 flex flex-col sm:flex-row gap-2">
-                            <Button className="w-full" variant='contained' color="black">
+                            <Button className="w-full" variant='contained' color="black" onClick={() => open('/about', '_self')}>
                                 About Me
                             </Button>
                             <Button className="w-full" variant='outlined' color="black">
