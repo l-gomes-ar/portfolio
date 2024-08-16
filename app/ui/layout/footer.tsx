@@ -15,8 +15,8 @@ export default function Footer() {
                 <div className="mt-4 sm:mt-0 sm:text-start">
                     <p className="font-bold text-xl">About Me</p>
                     <ul className="text-gray-600 font-thin">
-                        <li><Link href="#">Summary</Link></li>
-                        <li><Link href="#">Resume</Link></li>
+                        <li><Link href="/about">Summary</Link></li>
+                        <li><Link href="https://drive.google.com/file/d/1Vvy6RcfeaSCHgw6dxBBdoI2fgBK0VUqh/view">Resume</Link></li>
                     </ul>    
                 </div>
                 <div className="mt-4 sm:mt-0 sm:text-start">
