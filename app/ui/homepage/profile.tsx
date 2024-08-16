@@ -28,8 +28,8 @@ export default function Profile() {
                         h-auto
                         w-[300px]
                         md:w-[360px]
-                        rounded-tr-[30px]
-                        rounded-bl-[30px]
+                        rounded-tl-[30px]
+                        rounded-br-[30px]
                         sm:shadow-solid
                     "
                     src={profilePic} 
