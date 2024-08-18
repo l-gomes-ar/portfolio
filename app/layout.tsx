@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={paragraph.className}>
         <Header />
-        <main className="min-h-[50vh] md:min-h-[80vh]">
+        <main className="min-h-[50vh] md:min-h-[80vh] max-w-[1500px] mx-auto">
           {children}
         </main>
         <Footer />
