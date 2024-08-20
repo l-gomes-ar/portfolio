@@ -13,7 +13,7 @@ export default function Page() {
         <div>
             <div className="py-8 sm:px-8">
                 <h2 className={`${heading.className} text-xl sm:text-2xl md:text-4xl text-center`}>About Me</h2>
-                <div className="sm:flex p-6 sm:justify-between sm:gap-8 sm:items-center">
+                <div className="pt-8 sm:flex p-6 sm:justify-between sm:gap-8 sm:items-center">
                     <Image
                         className="
                             mx-auto
@@ -37,10 +37,10 @@ export default function Page() {
                     </div>
                 </div>
             </div>
-            <div className="mt-2 border-2 border-b-black"></div>
+            <div className="mt-2 border-2 border-dashed border-b-black"></div>
             <div className="py-8 sm:px-8">
                 <h2 className={`${heading.className} pt-6 text-xl sm:text-2xl md:text-4xl text-center`}>Education</h2>
-                <div className="flex flex-col sm:flex-row p-6 justify-center sm:gap-8 items-center">
+                <div className="pt-8 flex flex-col sm:flex-row p-6 justify-center sm:gap-8 items-center">
                     <div>
                         <h3 className={`${heading.className} text-lg sm:text-xl md:text-2xl`}>Web Development Certificate - Brigham Young University Idaho</h3>
                         <p className="md:text-xl pt-6">Learning Outcomes:</p>

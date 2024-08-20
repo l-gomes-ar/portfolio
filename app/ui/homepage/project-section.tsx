@@ -20,9 +20,9 @@ const theme = createTheme({
 export default function ProjectSection() {
     return (
         <ThemeProvider theme={theme}>
-            <div className="p-6">
+            <div className="px-6 py-[3.5rem]">
                 <h2 className={`${heading.className} text-xl sm:text-2xl md:text-4xl text-center`}>Recent Projects</h2>
-                <div className="mt-6">
+                <div className="mt-[3.5rem]">
                     <div className="flex flex-wrap gap-4 items-center justify-center">
                         <ProjectCard />
                         <ProjectCard />
