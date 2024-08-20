@@ -66,7 +66,7 @@ export default function Page() {
                         alt="Web Development BYUI Certificate"
                         onClick={
                             () => {
-                                open(`${webDevelopmentCertificate.src}`)
+                                open(webDevelopmentCertificate.src, '_self')
                             }
                         }
                     />
@@ -86,7 +86,7 @@ export default function Page() {
                         alt="Web Computer Programming BYUI Certificate"
                         onClick={
                             () => {
-                                open(`${webComputerCertificate.src}`)
+                                open(webComputerCertificate.src, '_self')
                             }
                         }
                     />
@@ -125,7 +125,7 @@ export default function Page() {
                         alt="CS50x Certificate"
                         onClick={
                             () => {
-                                open(`${cs50Certificate.src}`)
+                                open(cs50Certificate.src, '_self')
                             }
                         }
                     />
