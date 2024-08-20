@@ -1,3 +1,5 @@
+'use client';
+
 import { heading } from "../ui/fonts";
 import Image from "next/image";
 
@@ -58,9 +60,15 @@ export default function Page() {
                         border-black
                         border-[1px]
                         rounded-lg
+                        hover:cursor-pointer
                         "
                         src={webDevelopmentCertificate} 
                         alt="Web Development BYUI Certificate"
+                        onClick={
+                            () => {
+                                open(`${webDevelopmentCertificate.src}`)
+                            }
+                        }
                     />
                 </div>
                 <div className="flex flex-col-reverse p-6 sm:flex-row sm:gap-8 items-center justify-center">
@@ -72,9 +80,15 @@ export default function Page() {
                         border-black
                         border-[1px]
                         rounded-lg
+                        hover:cursor-pointer
                         "
                         src={webComputerCertificate} 
                         alt="Web Computer Programming BYUI Certificate"
+                        onClick={
+                            () => {
+                                open(`${webComputerCertificate.src}`)
+                            }
+                        }
                     />
                     <div className="">
                         <h3 className={`${heading.className} text-lg sm:text-xl md:text-2xl`}>Web and Computer Programming Certificate - Brigham Young University Idaho</h3>
@@ -105,9 +119,15 @@ export default function Page() {
                         h-auto
                         w-[310px]
                         md:w-[600px]
+                        hover:cursor-pointer
                         "
                         src={cs50Certificate} 
                         alt="CS50x Certificate"
+                        onClick={
+                            () => {
+                                open(`${cs50Certificate.src}`)
+                            }
+                        }
                     />
                 </div>
             </div>
