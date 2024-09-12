@@ -47,7 +47,7 @@ export default function Profile() {
                             <Button className="w-full" variant='outlined' color="black">
                                 Experience my Projects
                             </Button>
-                            <Button className="w-full" variant="outlined" color="black">
+                            <Button className="w-full" variant="outlined" color="black" onClick={() => open('/contact', '_self')}>
                                 Get in Touch
                             </Button>
                     </div>
